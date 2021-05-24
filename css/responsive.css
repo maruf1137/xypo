@@ -1,0 +1,225 @@
+@media only screen and (max-width:75em){
+    html{
+        font-size: 50%;
+    }
+
+    /* .section{
+        padding-left: 5rem;
+    } */
+
+    .header{
+        padding: 0 5rem;
+    }
+
+
+
+    .navigation input:checked ~ .nav{
+        right: 0;
+        width: 35%;
+     }
+
+     .about {
+        padding: 10rem 5rem;
+        
+    }
+
+    .footer{
+        grid-gap: 2rem;
+    }
+
+    .footer-nav{
+        grid-column: 1 / -1;
+    }
+
+    .courses-section {
+	    padding: 0 5rem;
+    }
+
+    .course {
+        grid-gap: 2rem;
+        /* padding: ; */
+    }
+
+    .course__content {
+        width: 100%;
+    }
+
+    .course__picture {
+        width: 50rem;
+    }
+
+    .offer {
+        grid-gap: 2rem;
+        padding: 0 5rem;
+    }
+
+    .contact-section {
+	    padding: 8rem 5rem;
+    }
+
+    .footer {
+	    padding: 8rem 5rem;
+    }
+
+    .footer-logo-box {
+        justify-self: center;
+    }
+
+    .copyright .gmail {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width:56.25em){
+    p {
+        color: #000;
+    }
+
+    .navigation input:checked ~ .nav{
+        right: 0;
+        width: 45%;
+     }
+
+    .header{
+        height: 70vh;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)),url(../img/background.png);
+    }
+
+    .header .line{
+        justify-items: start;
+    }
+
+    .about {
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+
+    .right-col {
+        flex-basis: 100%;
+        text-align: right;
+        text-align: center;
+    }
+
+    .about-text {
+        max-width: 50rem;
+        margin-right: 0;
+        display: inline-block;
+    }
+
+    .about-line {
+        justify-content: center;
+        justify-items: center;
+        margin: 1.5rem 0;
+    }
+
+    .course__content {
+        grid-column: 1 / -1;
+        margin-bottom: 3rem;
+        grid-column: 1 / -1;
+        margin-bottom: 3rem;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .offer .left-col {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+    }
+
+    .offer .right-col {
+        grid-column: 1 / -1;
+    }
+
+    .left-side {
+        grid-column: 1 / -1;
+    }
+
+    .right-side {
+        grid-column: 1 / -1;
+    }
+
+    .contact-section {
+        padding: 4rem 10rem;
+    }
+
+    .line {
+        justify-items: center;
+    }
+
+    .course__picture {
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+}
+
+@media only screen and (max-width:37.5em){
+    
+    .navigation input:checked ~ .nav{
+        right: 0;
+        width: 100%;
+     }
+
+    .contact-section h1{
+        text-align: center;
+    }
+
+    .offer .right-col {
+        padding: 0 4rem;
+    }
+
+    .buttons{
+        margin-top: 2rem;
+    }
+
+    .buttons .btn{
+        background-color: var(--color-primary);
+        color: #fff;
+    }
+
+    .buttons .btn:hover{
+        background-color: #fff;
+        color: var(--color-primary);
+    }
+
+    .btn-signup{
+        grid-column: 1 / -1;
+        margin-bottom: 1rem;
+    }
+
+    .btn-trial{
+        grid-column: 1 / -1;
+    }
+
+    .footer {
+        padding: 8rem 2rem;
+    }
+
+    .footer-nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem 2rem;
+        text-align: center;
+    }
+
+    .copyright {
+        grid-column: 1 / -1;
+        text-align: center;
+        grid-row: 3 / 4;
+    }
+
+    .footer-logo-box {
+        justify-self: center;
+        grid-column: 1 / -1;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-logo-box .btn {
+        align-self: center;
+    }
+}
